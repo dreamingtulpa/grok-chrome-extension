@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        {
+          "header": "Referer",
+          "operation": "set",
+          "value": "https://grok.com/"
+        }
+      ]
+    },
+    "condition": {
+      "urlFilter": "||assets.grok.com/*",
+      "initiatorDomains": [
+        "lodkejcbbjmhbbhlclchbkbfkkbjnmcn"
+      ],
+      "resourceTypes": [
+        "xmlhttprequest"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        {
+          "header": "Referer",
+          "operation": "set",
+          "value": "https://grok.com/"
+        }
+      ]
+    },
+    "condition": {
+      "urlFilter": "||imagine-public.x.ai/*",
+      "initiatorDomains": [
+        "lodkejcbbjmhbbhlclchbkbfkkbjnmcn"
+      ],
+      "resourceTypes": [
+        "xmlhttprequest"
+      ]
+    }
+  }
+]
