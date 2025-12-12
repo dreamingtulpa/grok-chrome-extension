@@ -1,3 +1,5 @@
+![](supergrok.jpg)
+
 # SuperGrok Pro Chrome Extension
 
 Built by [@dreamingtulpa](https://x.com/dreamingtulpa) for the [Pale Fire](https://distrokid.com/hyperfollow/dreamingtulpa/pale-fire) music video.
